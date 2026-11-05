@@ -1,0 +1,53 @@
+<html>
+<head>
+  <style>
+    h2 {
+      color: black;
+      background-color: DarkGoldenRod
+    }
+
+    h3 {
+      color: white;
+      background-color: red
+    }
+  </style>
+</head>
+<body>
+  <h2>Sistema de Gestão Acadêmica</h2>
+  <h3>Manutenção de usuario interno</h3>
+  <form action="">
+    Login:
+    <input type="text" /><br></br>
+    Senha:
+    <input type="password" /><br></br>
+    Status:
+    <select>
+      <option value="Inativo">Inativo</option>
+      <option value="Ativo">Ativo</option>
+    </select><br /><br />
+    Tipo:
+    <input type="radio">Técnico
+    <input type="radio">Professor
+    <input type="radio">Aluno<br></br>
+    Data de Criação:
+    <input type="date"><br></br>
+    Perfil:
+    <select>
+      <option value="Inativo">Inativo</option>
+      <option value="Ativo">Ativo</option>
+    </select><br></br>
+    <label for="id_obs">Observações:</label><br />
+    <textarea cols="30" rows="10">
+      </textarea><br /><br />
+    Módulos:<br>
+    <input type="checkbox" id="id_usuario" name="chk_usuario" />Compras
+    <input type="checkbox" id="id_usuario" name="chk_usuario" />Biblioteca
+    <input type="checkbox" id="id_usuario" name="chk_usuario" />Acadêmica<br>
+    <input type="checkbox" id="id_usuario" name="chk_usuario" />Documentação
+    <input type="checkbox" id="id_usuario" name="chk_usuario" />Recursos Humannos<br/><br/>
+    <input type="submit" style="background-color:green;" value="Registrar">
+    <input type="reset" style="background-color:red;" value="Cancelar">
+  </form>
+</body>
+
+</html>

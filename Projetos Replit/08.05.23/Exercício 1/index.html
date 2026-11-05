@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+    body {
+      background-color: rgb(177, 177, 177)
+    }
+  </style>
+</head>
+  </head>
+  <body>
+    <center>
+    <h1>FORMULÁRIO DE CADASTRO</h1>
+    </center>  
+    <hr><br>
+    <form>
+      <div class="input.box">
+        <label for="Código">Código...:</label>
+        <input type="number" id="Código" name="txt_Código"/><br/><br/>
+      </div>
+      
+      <div class="input.box">
+        <label for="Nome">Nome...:</label>
+        <input type="text" id="Nome" name="txt_Nome"/><br/><br/>
+      </div>
+      
+      <div class="input.box">
+        <label for="Endereço">Endereço...:</label>
+        <input type="text" id="Endereço" name="txt_Endereço"/><br/><br/>
+      </div>
+      
+      <div class="input.box">
+        <label for="CEP">CEP...:</label>
+        <input type="number" id="CEP" name="txt_CEP"/><br/><br/>
+      </div>
+      
+      <div class="input.box"></div>
+        <label for="Email">Email...:</label>
+        <input type="email" id="Email" name="txt_Email"/><br/><br/>
+      </div>
+      
+      <div class="input.box">
+        <label for="Sexo">Sexo...:</label>
+        
+        <input type="radio" id="Sexo" name="rdb_sexo" value="Masculino"/>
+        <label for="Sexo">Maculino</label>
+        <input type="radio" id="Sexo" name="rdb_sexo" value="Feminino"/>
+        <label for="Sexo">Feminino</label>
+        <input type="radio" id="Sexo" name="rdb_sexo" value="Outros"/>
+        <label for="Sexo">Outros</label><br/><br/>
+      </div>
+      
+      <div class="input.box">
+        <label for="esporte">Preferencia de Esporte...:</label>
+
+        <input type="checkbox" id="futebol" name="chk_futebol"/>
+        <label for="esporte">Futebol</label>
+        <input type="checkbox" id="natação" name="chk_natação"/>
+        <label for="esporte">Natação</label>
+        <input type="checkbox" id="volei" name="chk_volei"/>
+        <label for="esporte">Volei</label>
+        <input type="checkbox" id="outros" name="chk_outros"/>
+        <label for="esporte">Outros</label><br/><br/>
+        </div>
+      <div class="input.box">
+        <label for="obs">OBS...:</label><br/>
+        <textarea cols="30" rows="10"></textarea><br/><br/>
+      </div>
+
+      <div class="input.box">
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Refazer" > 
+      </div>
+    </form>
+  </body>
+</html>

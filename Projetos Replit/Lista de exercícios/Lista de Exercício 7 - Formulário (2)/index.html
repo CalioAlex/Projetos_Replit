@@ -1,0 +1,47 @@
+<html>
+  <head></head>
+  <body>
+    <h1>SISTEMA DE GESTÃO ACADÊMICA</h1>
+    <h2>MANUTENÇÃO DE USUÁRIOS DO SISTEMA INTERNO </h2>
+    <form action="">
+     
+      <label for="id_nome">Login</label>
+      <input type="text" id="id_nome" name="txt_nome"/><br></br>
+     
+      <label for="id_senha">Senha</label>
+      <input type="password" id="id_senha" name="id_senha"<br></br>
+      
+      Status:
+      <select>
+        <option value="inativo" selected>Inativo</option>
+        <option value="Ativo" selected>Ativo</option>
+      </select>
+      <br>
+      Tipo:
+      <input type="radio" id="id_tipo_tecnico" name="rdb_tipo" value="tecnico"/>Técnico
+      <input type="radio" id="id_tipo_professor" name="rdb_tipo" value="professor"/>Professor 
+      <input type="radio" id="id_tipo_aluno" name="rdb_tipo" value="aluno"/>Aluno<br>
+
+      Data Criação:
+      <input type="date"/><br>
+
+      Perfil: 
+      <input type="radio" id="id_tipo_convidado" name="rdb_tipo" value="convidado"/>Convidado 
+      <input type="radio" id="id_tipo_administrador" name="rdb_tipo" value="administrador"/>Administrador<br>
+      
+      Observações: 
+      <label for="id_obs"></label><br>
+      <textarea cols="20" rows="10">
+      </textarea><br></br>
+     
+      Módulo: <br>
+      <input type="checkbox" id="id_compras" name="chk_compras"/>Compras
+      <input type="checkbox" id="id_biblioteca" name="chk_bilbioteca"/>Biblioteca 
+      <input type="checkbox" id="id_academico" name="chk_academico"/>Acadêmico<br>
+      <input type="checkbox" id="id_documentação" name="chk_documentação"/>documentação 
+      <input type="checkbox" id="id_recursoshumanos" name="chk_recursoshumanos"/>Recursos Humanos <br></br>
+
+      <input type="submit" value="Cadastrar">
+      <input type="reset" value="Excluir">
+  </body>
+</html>
